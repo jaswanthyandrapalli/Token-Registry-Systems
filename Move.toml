@@ -1,0 +1,16 @@
+[package]
+name = "testproject"
+version = "1.0.0"
+authors = []
+
+[addresses]
+jas_addr="0xbd3555211dda2b20cbfc09c8d25ee5a355464c0ffcbc9d228ff3d9b0c47ded60"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
